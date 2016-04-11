@@ -1,0 +1,254 @@
+html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    margin-top: -1.2em;
+    
+}
+
+#wrapper {
+    margin: auto;
+    width: 100%;
+    
+    
+    
+}
+
+header {
+    background-color: darkslategray;
+    border-bottom: .5em solid #009688;
+    box-shadow: 3px 3px 30px black;
+}
+
+header h1 {
+    font-family: roboto;
+    font-weight: 400;
+    color: white;
+    padding: .4em;
+}
+
+header h3 {
+    font-family: roboto;
+    font-weight: 100;
+    color: white;
+    padding: .4em;
+    margin-top: -.5em;
+    
+}
+
+
+nav {
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    width: 20em;
+    margin-top: -1em;
+    
+}
+
+nav ul li {
+    float: left;
+    margin-left: .5em;
+    
+    
+    
+}
+
+nav ul li a {
+    background-color: #009688;
+    color: white;
+    font-family: roboto;
+    font-weight: 100;
+    text-decoration: none;
+    padding: .3em;
+    font-size: .9em;
+    box-shadow: 3px 3px 10px black;
+}
+
+nav ul li a:hover {
+    font-size: 1em;
+    border-top: .3em solid whitesmoke;
+}
+
+
+.knoppen {
+/*    overflow: hidden;*/
+}
+
+nav ul li.actief {
+    background-color: orange;
+    
+}
+
+#css {
+    float: right;
+}
+
+.paneel {
+    display: none;
+    
+}
+
+.paneel.actief  {
+    display: block !important;
+    
+    clear: left;
+    
+    border: 1px solid gray;
+    padding: 0;
+    margin: 0;
+    
+    width: 98%;
+    background-color: whitesmoke;
+    font-family: roboto;
+    font-weight: 100;
+    margin: auto;
+    margin-top: 2.5em;
+    box-shadow: 3px 3px 30px #aaa;
+    border-radius: 2px 2px 0px 0px;
+    
+    
+    
+    
+}
+
+.paneel h3 {
+    font-family: roboto;
+    font-weight: 400;
+    color: white;
+    background-color: darkslategray;
+    border-top: .2em solid #009688;
+    text-align: center;
+    margin-top: -.1em;
+    padding: .2em;
+    border-radius: 2px 2px 0px 0px;
+   
+    
+}
+
+.paneel hr {
+    width: 70%;
+}
+
+.paneel p {
+    margin-left: .2em;
+    margin: auto;
+    text-align: left;
+    word-wrap: break-word;
+    padding: .5em;
+    margin-left: .2em;
+    margin-right: .2em;
+    
+    
+}
+
+.paneel img {
+    width: 97.5%;
+    margin: auto;
+    text-align: center;
+    
+    max-height: 16em;
+    margin-left: .5em;
+    margin-right: .5em;
+    
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+        height: 4em;
+    background-color: darkslategray;
+    width: 100%;
+    opacity: .9;
+}
+
+#validatie {
+    
+    margin-top: -2em;
+    margin-left: .5em;
+}
+
+
+#validatie img {
+    width: 5em;
+    opacity: .7
+}
+
+footer h4 {
+    color: white;
+    font-family: roboto;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+
+
+
+@media screen and (min-width: 560px) {
+    .paneel.actief {
+        width: 25em;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    nav ul li {
+        font-size: 1.2em;
+        
+    }
+    
+    nav ul {
+        width: 30em;
+        margin-left: 30%
+    }
+    
+    nav {
+        
+    }
+}
+
+@media screen and (min-width: 1100px) {
+   
+    
+    nav ul {
+        
+        margin-left: 31%
+    }
+    
+    nav {
+        
+    }
+}
+@media screen and (min-width: 1220px) {
+   
+    
+    nav ul {
+        
+        margin: auto;
+        margin-top: -1em;
+    }
+    
+    header h1 {
+        text-align: center;
+        float: none
+    }
+    
+    header h3 {
+        text-align: center;
+        float: none
+    }
+}
